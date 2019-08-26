@@ -26,4 +26,4 @@ addons:
 before_script:
   - yes | sdkmanager --update
 script:
-  - ./gradlew assembleRelease
+  - ./gradlew assembleDebug
